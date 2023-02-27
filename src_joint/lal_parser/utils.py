@@ -1,6 +1,5 @@
 __author__ = 'max'
 
-import pickle
 import numpy as np
 import gzip
 

@@ -8,7 +8,6 @@ import torch
 import torch.optim.lr_scheduler
 
 import numpy as np
-import math
 import evaluate
 import trees
 import vocabulary
@@ -16,12 +15,14 @@ import makehp
 import KM_parser
 from dep_reader import CoNLLXReader
 import dep_eval
-import utils
-import json
+
 tokens = KM_parser
 import nltk
 from nltk import word_tokenize, sent_tokenize
 from tqdm import tqdm
+import os
+os.environ["TRANSFORMERS_CACHE"]='/cw/liir_code/NoCsBack/wolf/.cache'
+nltk.download('punkt')
 
 uid = uuid.uuid4().hex[:6]
 

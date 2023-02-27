@@ -1,0 +1,11 @@
+torch>=1.1.0
+cython>=0.29.13
+numpy>=1.17.2
+pytorch_pretrained_bert>=0.6.2
+sentencepiece>=0.1.83
+tensorflow>=2.0.0
+tensorboard>=2.0.0
+nltk>=3.5
+transformers>=2.8.0
+tqdm>=4.45.0
+

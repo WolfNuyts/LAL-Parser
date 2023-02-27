@@ -90,7 +90,7 @@ To generate a diagram of a parse tree based on the output `output_synconst_0.txt
 
 ## Label Attention
 
-The implementation for the Label Attention Layer is in the Python Class `LabelAttention` in the file [`src_joint/KM_parser.py`](src_joint/KM_parser.py).
+The implementation for the Label Attention Layer is in the Python Class `LabelAttention` in the file [`src_joint/KM_parser.py`](src_joint/lal_parser/KM_parser.py).
 
 ## Citation
 

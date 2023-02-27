@@ -22,7 +22,7 @@ from pytorch_transformers.tokenization_xlnet import (XLNetTokenizer, SPIECE_UNDE
 from .tokenization_tests_commons import CommonTestCases
 
 SAMPLE_VOCAB = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                    'fixtures/test_sentencepiece.model')
+                            'fixtures/test_sentencepiece.model')
 
 class XLNetTokenizationTest(CommonTestCases.CommonTokenizerTester):
 
